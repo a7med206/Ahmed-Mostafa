@@ -2016,7 +2016,7 @@ input, select, textarea {
 		}
 
 		.icon > .label {
-			display: none;
+			display: inline-flex;
 		}
 
 		.icon:before {
@@ -2236,6 +2236,8 @@ input, select, textarea {
 				text-align: center;
 				top: 0;
 				width: 1em;
+             margin: 0px 0px 1em 3.5rem;
+
 			}
 
 /* Actions */
