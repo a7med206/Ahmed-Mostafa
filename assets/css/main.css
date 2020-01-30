@@ -2575,7 +2575,12 @@ border-color: #49bf9d;
             border: 0px;
         
 		}
-
+.work-item a i{
+    margin-left: 0.5rem;
+}
+		.work-item a:hover {
+            text-decoration: underline;
+}
 		.work-item p {
 			font-size: 0.8em;
 			line-height: 1.5em;
