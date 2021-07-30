@@ -2016,7 +2016,7 @@ input, select, textarea {
 		}
 
 		.icon > .label {
-			display: inline-flex;
+			display: none;
 		}
 
 		.icon:before {
@@ -2236,8 +2236,6 @@ input, select, textarea {
 				text-align: center;
 				top: 0;
 				width: 1em;
-             margin: 0px 0px 1em 3.5rem;
-
 			}
 
 /* Actions */
@@ -2576,12 +2574,7 @@ border-color: #49bf9d;
             border: 0px;
         
 		}
-.work-item a i{
-    margin-left: 0.5rem;
-}
-		.work-item a:hover {
-            text-decoration: underline;
-}
+
 		.work-item p {
 			font-size: 0.8em;
 			line-height: 1.5em;
